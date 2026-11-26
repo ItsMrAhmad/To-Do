@@ -1,0 +1,37 @@
+
+# ==============================================================================
+# Security & Git Hygiene (Hardened)
+# ==============================================================================
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Keys & Credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+gsc-*.json
+firebase-adminsdk*.json
+
+# Databases & Dumps
+*.sql
+*.sqlite
+*.sqlite3
+dump.rdb
+
+# Local Scratch & Logs
+scratch/
+tmp/
+*.log
+.DS_Store
+
+# Local AI & IDE Agent Configs
+.claude/
+.cursor/
+.windsurf/
+.agent/
+.antigravity/
